@@ -14,5 +14,5 @@ Build instructions:
 cc -O2 freebsd_treemap_zooming.c -o freebsd_treemap_zooming -lkvm -lX11 -lm
 
 Run:
-doas ./freebsd_treemap_zoom
+doas ./freebsd_treemap_zooming
 
