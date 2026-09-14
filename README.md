@@ -11,7 +11,7 @@ Right-Click / ESC: Unzoom back to the treemap view.
 Q: Exit program.
 
 Build instructions:
-cc -O2 freebsd_treemap_zooming.c -o freebsd_treemap_zooming -lkvm -lX11 -lm
+clang -O2 -I/usr/local/include freebsd_treemap_zooming.c -o freebsd_treemap_zooming -L/usr/local/lib -lkvm -lX11 -lm
 
 Run:
 doas ./freebsd_treemap_zooming
