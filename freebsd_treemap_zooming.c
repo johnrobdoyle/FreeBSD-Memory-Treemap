@@ -347,7 +347,7 @@ static void draw_treemap(Display *dpy, Window win, GC gc, int win_w, int win_h, 
 
         if (removed_blocks_count > 0) {
             char status[128];
-            snprintf(status, sizeof(status), "Filtered Out: %d Largest Box(es) [- to remove, + to restore]", removed_blocks_count);
+            snprintf(status, sizeof(status), "Filtered Out: %d Largest Block(s) [- to remove, + to restore]", removed_blocks_count);
             XSetForeground(dpy, gc, BlackPixel(dpy, DefaultScreen(dpy)));
             XFillRectangle(dpy, win, gc, 5, 5, 410, 20);
             XSetForeground(dpy, gc, WhitePixel(dpy, DefaultScreen(dpy)));
