@@ -1,3 +1,16 @@
+/*
+ * Copyright (c) [2026] [John Doyle]
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including the right to use, copy, modify,
+ * merge, publish, distribute, sublicense, and/or sell copies of the Software,
+ * and to adapt/relicense the Software, subject to the inclusion of the above
+ * copyright notice in all copies.
+ *
+ * Licensed under the MIT License (the "License");
+ * you may not use this file except in compliance with the License.
+ */
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
