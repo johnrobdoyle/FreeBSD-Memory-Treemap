@@ -4,8 +4,8 @@ It also includes interactive mouse tooltips: hovering over any block reveals det
 All memory blocks always fit precisely within the window boundaries without overflowing,
 
 Controls Summary:
-- (Minus): Removes the largest box currently displayed.
-+ or = (Plus): Restores the most recently removed box.
+"-" (Minus): Removes the largest block currently displayed.
+"+" (Plus): Restores the most recently removed block.
 Left-Click: Zoom into a single process block.
 Right-Click / ESC: Unzoom back to the treemap view.
 Q: Exit program.
